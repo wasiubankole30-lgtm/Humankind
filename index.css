@@ -572,13 +572,15 @@ i {
 .class {
     padding: 100px;
 }
-}
+
 
 @media (max-width:425px) {
     .how {
         font-size: 15px;
     }
-
+.sec1{
+    height: auto;
+}
     .sec2 {
         height: auto;
     }
@@ -721,6 +723,9 @@ i {
     body {
         font-size: 12px;
     }
+    .sec1{
+        height: auto;
+    }
 
     .sec2 {
         height: auto;
@@ -803,7 +808,9 @@ i {
 
 @media (max-width:320px) {
 
-
+.sec1{
+    height: auto;
+}
 
     .sec2 {
         height: auto;
