@@ -480,6 +480,33 @@ i {
     body {
         font-size: 15px;
     }
+    sec1{
+    height: auto;
+}
+    .sec2 {
+        height: auto;
+    }
+
+    .sec3 {
+        height: auto;
+    }
+
+    .sec4 {
+        height: auto;
+    }
+
+    .sec5 {
+        height: auto;
+    }
+
+    .sec6 {
+        height: auto;
+    }
+
+    .sec7 {
+        height: auto;
+    }
+
 
     section {
         padding: 40px 80px;
@@ -490,8 +517,7 @@ i {
         height: auto;
     }
 
-    .sec2 {
-        height: auto;
+    
     }
 
     .ogoh {
@@ -506,12 +532,13 @@ i {
         padding: 40px 60px;
     }
 
-    .sec4 {
-        height: auto;
-    }
+    
 }
 
 @media (max-width:768px) {
+   sec1{
+    height: auto;
+}
     .sec2 {
         height: auto;
     }
