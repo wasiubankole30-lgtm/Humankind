@@ -16,7 +16,7 @@ a{
     color: #fff;
 }
 .sec1{
-height: 140vh;
+height: 120vh;
  background: linear-gradient(to bottom,transparent, rgb(32, 33, 34)), url('./media/mama.jpg');
 background-position: center;
 background-size: cover;
@@ -466,6 +466,23 @@ video{
     img{
         max-width: 200px;
     }
+     .sec2{
+        height: 600px;
+    }
+    .sec5{
+        height: 600px;
+    }
+    .sec3{
+        height: 600px;
+    }
+    .sec4{
+        height: 600px;
+    }
+
+
+    .sec1{
+        height: 600px;
+    }
     .btn2{
         padding: 20px;
     }
@@ -495,24 +512,24 @@ video{
     .parent{
         padding: 10px;
     }
-    .sec2{
+    /* .sec2{
         height: 250vh;
-    }
+    } */
     .ant{
         gap: 0;
     }
     .wahala{
         padding: 15px;
     }
-    .sec3{
+    /* .sec3{
         height: 150vh;
-    }
+    } */
     .play{
         font-size: 18px;
     }
-    .sec5{
+    /* .sec5{
         height: 80vh;
-    }
+    } */
     .badp{
         padding: 0px;
         gap: 20px;
@@ -578,9 +595,9 @@ video{
     button{
         padding: 6px 12px;
     }
-    .sec3{
+    /* .sec3{
         height: 150vh;
-    }
+    } */
     .btn3{
         padding: 10px;
         width: 80px;
@@ -616,28 +633,47 @@ video{
 .khalid{
     grid-template-columns: 1fr 1fr;
 }
+ .sec2{
+        height: 600px;
+    }
+    .sec5{
+        height: 600px;
+    }
+    .sec3{
+        height: 600px;
+    }
+    .sec4{
+        height: 600px;
+    }
+
+
+    .sec1{
+        height: 600px;
+    }
 
 
 }
 @media (max-width:320px){
     .sec2{
-        height: 400vh;
+        height: 600px;
     }
     .sec5{
-        height: 100vh;
+        height: 600px;
     }
-    .ogoh{
+    .sec3{
+        height: 600px;
+    }
+    .sec4{
+        height: 600px;
+    }
+
+
+    .sec1{
+        height: 600px;
+    }
+        .ogoh{
         grid-template-columns: 1fr;
 
-    }
-    .sec2{
-        height: 480vh;
-    }
-    .sec1{
-        height: 100vh;
-    }
-    .sec1{
-        height: 120vh;
     }
     .light{
         padding: 1px;
