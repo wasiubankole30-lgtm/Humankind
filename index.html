@@ -9,68 +9,76 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  
-    <nav class="navbar navbar-dark bg-dark fixed-top ">
-  <div class="container-fluid">
-    <div class="d-flex justify-content-between align-item-center container-fluid">
-    <a class="navbar-brand fs-1 fw-bold" href="#">HUMANKIND™</a>
 
-      <div class="d-flex justify-content- align-item-center gap-4 my-gap d-none d-lg-flex  ">
-      <a href="#">ABOUT</a>
-      <a href="#">PARTNER PROGRAM</a>
-      <a href="#">MEDIA</a>
+<nav class="navbar nav bg-dark fixed-top ">
+  <div class="container-fluid">
+    <div class="d-flex align-item-center justify-content-between container-fluid d">
+    <a class="navbar-brand text-white fs-1 fw-bold ms-3" href="#">HUMANKIND™</a>
+      <div class="d-flex align-item-center justify-content-start mt-3 gap-5 d-none d-lg-flex fs-4">
+        <a href="">ABOUT</a>
+        <a href="">PARTNER PROGRAM</a>
+        <a href="">MEDIA</a>
       </div>
-      <div class="toor d-none d-lg-block ">
-        <a href="" class="font"> <i  class="fa-solid fa-user" class="font"></i>SIGN UP</a>
-            <button class="btn1">BUY NOW</button>
+      <div class="d-none d-lg-flex align-item-center mt-3 gap-3">
+        <a class="mt-2 fw-bold" href="">SIGN UP</a>
+        <button class="btn btn-outline-light bg-secondary me-3">BUY NOW</button>
       </div>
-      </div>
-    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+    </div>
+    <button class="navbar-toggler bg-secondary d-lg-none " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+    <div class="offcanvas offcanvas-end bg-success text-white " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">HUMANKIND</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">GAME2GETHER</h5>
+        <button type="button text-white" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+      <div class="offcanvas-body text-white">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-white">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+            <a class="nav-link active " aria-current="page" href="#">HUMANKIND?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">partner-program</a>
+            <a class="nav-link" href="#">HOME</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              MEDIA
+              Dropdown
             </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ABOUT</a></li>
+              <li><a class="dropdown-item" href="#">PROGRAM PARTNER</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">MEDIA</a></li>
             </ul>
           </li>
         </ul>
         <form class="d-flex mt-3" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button class="btn btn-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
     </div>
   </div>
 </nav>
+              
 
-    <section class="sec1">
+    <section class="sec1 container-fluid">
         <div class="condom">
+          <div class="d-flex justify-content-start flex-column align-item-center">
+          <h4 id="script">THIS IS ANDEX FIRST PAGE</h4>
+          <button onclick="changetext()" class="light" >Click me</button>
+          <script>
+            function changetext (){
+              document.getElementById ('script').innerHTML="HELLO!!! WELCOME TO MY  WORLD"
+            }
+          </script></div>
             <img src="https://cdn.sega.co.uk/humankind-game/public/content/media/images/vector/Logo_HK_Cultures%20of%20Oceania.svg" alt="">
             <button class="btn2">BUY NOW</button>
         </div>
     </section>
-    <section class="sec2">
+    <section class="sec2 container-fluid">
         <div class="parent"> 
     <h1 class="how">HOWFAR WILL YOU PUSH <br> HUMANKIND</h1>
 <div class="ogoh">
@@ -98,7 +106,7 @@
         </div>
         </div>
     </section>
-    <section class="sec3">
+    <section class="sec3 container-fluid">
         <div class="greed">
         <div class="ant">
 <h1 class="plays">PLAY HUMANKIND TODAY <br> ON PC!</h1>
@@ -119,7 +127,7 @@
     <img class="hmm" src="https://cdn.sega.co.uk/humankind-game/public/styles/1280/public/content/media/images/raster/HKD_ARRAY_COLLECTION_EPIC_DIGITAL_EN.jpg?itok=OTef-JXc" alt="">
 </div></div>
     </section>
-    <section class="sec4">
+    <section class="sec4 container-fluid">
         <div class="badp">
 <div>
     <img class="burna" src="https://cdn.sega.co.uk/humankind-game/public/content/media/images/alpha/partner-program.png?VersionId=wRmB8PUoAymKtiOW7_SJYQsUx_nJFF0o" alt="">
@@ -133,7 +141,7 @@ In addition to a direct line of contact with us, you’ll also have access <br> 
 <button class="btn4">SIGN UP NOW!!</button>
 </div></div>
     </section>
-    <section class="sec5">
+    <section class="sec5 container-fluid">
       <div>
         <span class="box one">"Amplitude is creating Something really quite excciting"</span>
         <P class="box one" style="margin-top: 40px; font-size: 14px;">IGN</P>
@@ -148,7 +156,7 @@ In addition to a direct line of contact with us, you’ll also have access <br> 
       </div>
       
     </section>
-    <section class="sec6">
+    <section class="sec6 container-fluid">
 <div class="sokoto">
     <img class="imma" src="https://cdn.sega.co.uk/humankind-game/public/content/media/images/vector/HKD_TAGLINE_RGB_ARCTIC-WHITE_0.svg?VersionId=GLaLLihhHpCKAyeD0_IA2WdN1z2JaO.G" alt="">
 </div>
@@ -199,7 +207,7 @@ In addition to a direct line of contact with us, you’ll also have access <br> 
 </div>
 </div>
     </section>
-    <section class="sec7">
+    <section class="sec7 container-fluid">
 <div class="game">
     <img class="ima3" src="https://cdn.sega.co.uk/humankind-game/public/content/media/images/vector/logo-games2gether-text.svg?VersionId=2qMTmPcvJvpPMVhh4D6L_aNwpgpOdgpX" alt="" height="100px">
     <p class="join">JOIN OUR UNIQUE COMMUNITY OF CO-CREATORS!</p>
