@@ -20,6 +20,7 @@ a {
 }
 
 .sec1 {
+    
     height: 120vh;
     background: linear-gradient(to bottom, transparent, rgb(32, 33, 34)), url('./media/mama.jpg');
     background-position: center;
@@ -84,7 +85,7 @@ img {
 }
 
 .sec2 {
-    height: 130vh;
+    height: 135vh;
     background-color: #0d1422;
 
 
@@ -95,6 +96,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
     margin-top: 50px;
+    
 
 }
 
@@ -186,7 +188,7 @@ li {
 }
 
 .sec4 {
-    height: 80vh;
+    height: 90vh;
     background-color: #1b1c2e;
 }
 
@@ -299,11 +301,8 @@ h2 {
 
 }
 
-.khalid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-}
+
+
 
 img {
     object-fit: cover;
@@ -311,11 +310,18 @@ img {
     border-radius: 5px;
 
 }
+.khalid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 0px 100px;
+}
 
 .cing {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    padding: 0px 100px;
 
 }
 
@@ -334,15 +340,14 @@ img {
 
 }
 
-.ima1 {
+.ima1{
     height: auto;
-    object-fit: cover;
-    width: 100%;
-
+    
 }
 
 .ima2 {
     height: auto;
+    
 }
 
 .sec7 {
@@ -404,7 +409,7 @@ img {
 }
 
 footer {
-    height: 100vh;
+    height: 90vh;
     background-color: #13223f;
 
 }
@@ -480,32 +485,7 @@ i {
     body {
         font-size: 15px;
     }
-    sec1{
-    height: auto;
-}
-    .sec2 {
-        height: auto;
-    }
-
-    .sec3 {
-        height: auto;
-    }
-
-    .sec4 {
-        height: auto;
-    }
-
-    .sec5 {
-        height: auto;
-    }
-
-    .sec6 {
-        height: auto;
-    }
-
-    .sec7 {
-        height: auto;
-    }
+   
 
 
     section {
@@ -521,7 +501,8 @@ i {
     }
 
     .ogoh {
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0px 150px;
     }
 
     .parent {
@@ -533,7 +514,7 @@ i {
     }
 
     
-}
+
 
 @media (max-width:768px) {
    sec1{
@@ -550,17 +531,23 @@ i {
     .sec4 {
         height: auto;
     }
-
-    .sec5 {
-        height: auto;
-    }
+.ogoh{
+    padding: 0px;
+}
+   
 
     .sec6 {
         height: auto;
     }
-
-    .sec7 {
+    .sec7{
         height: auto;
+    }
+    footer{
+        height: auto;
+    }
+
+    .khalid{
+        grid-template-columns: 1fr 1fr;
     }
 
     video {
@@ -588,9 +575,6 @@ i {
 
 }
 
-.khalid {
-    grid-template-columns: 1fr 1fr;
-}
 
 .btn2 {
     padding: 30px;
@@ -605,9 +589,7 @@ i {
     .how {
         font-size: 15px;
     }
-.sec1{
-    height: auto;
-}
+
     .sec2 {
         height: auto;
     }
@@ -621,15 +603,19 @@ i {
     }
 
     .sec5 {
-        height: auto;
+        height: 90vh;
     }
 
     .sec6 {
         height: auto;
     }
 
-    .sec7 {
-        height: auto;
+    footer {
+        height: auto !important;
+        padding: 0px 10px;
+    }
+    .burna{
+        max-width: 300px;
     }
 
     img {
@@ -644,8 +630,8 @@ i {
         padding: 2px;
     }
 
-    .ogoh {
-        grid-template-columns: 1fr;
+    .ogoh{
+        grid-template-columns: 1fr !important;
     }
 
     .boda {
@@ -679,6 +665,7 @@ i {
 
     .wahala {
         padding: 15px;
+        gap: 10px;
     }
 
     .play {
@@ -698,9 +685,6 @@ i {
         grid-template-columns: 1fr;
     }
 
-    .khalid {
-        grid-template-columns: 1fr;
-    }
 
     .class {
         padding: 5px;
@@ -750,9 +734,7 @@ i {
     body {
         font-size: 12px;
     }
-    .sec1{
-        height: auto;
-    }
+
 
     .sec2 {
         height: auto;
@@ -836,7 +818,7 @@ i {
 @media (max-width:320px) {
 
 .sec1{
-    height: auto;
+    height: 120vh;
 }
 
     .sec2 {
