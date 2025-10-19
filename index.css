@@ -20,7 +20,7 @@ a {
 }
 
 .sec1 {
-    
+
     height: 120vh;
     background: linear-gradient(to bottom, transparent, rgb(32, 33, 34)), url('./media/mama.jpg');
     background-position: center;
@@ -96,7 +96,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
     margin-top: 50px;
-    
+
 
 }
 
@@ -310,7 +310,8 @@ img {
     border-radius: 5px;
 
 }
-.khalid{
+
+.khalid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
@@ -340,14 +341,14 @@ img {
 
 }
 
-.ima1{
+.ima1 {
     height: auto;
-    
+
 }
 
 .ima2 {
     height: auto;
-    
+
 }
 
 .sec7 {
@@ -485,7 +486,7 @@ i {
     body {
         font-size: 15px;
     }
-   
+
 
 
     section {
@@ -497,29 +498,30 @@ i {
         height: auto;
     }
 
-    
-    }
 
-    .ogoh {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 0px 150px;
-    }
+}
 
-    .parent {
-        padding: 50px;
-    }
+.ogoh {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px 150px;
+}
 
-    .btn2 {
-        padding: 40px 60px;
-    }
+.parent {
+    padding: 50px;
+}
 
-    
+.btn2 {
+    padding: 40px 60px;
+}
+
+
 
 
 @media (max-width:768px) {
-   sec1{
-    height: auto;
-}
+    sec1 {
+        height: auto;
+    }
+
     .sec2 {
         height: auto;
     }
@@ -531,22 +533,25 @@ i {
     .sec4 {
         height: auto;
     }
-.ogoh{
-    padding: 0px;
-}
-   
+
+    .ogoh {
+        padding: 0px;
+    }
+
 
     .sec6 {
         height: auto;
     }
-    .sec7{
-        height: auto;
-    }
-    footer{
+
+    .sec7 {
         height: auto;
     }
 
-    .khalid{
+    footer {
+        height: auto;
+    }
+
+    .khalid {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -614,7 +619,8 @@ i {
         height: auto !important;
         padding: 0px 10px;
     }
-    .burna{
+
+    .burna {
         max-width: 300px;
     }
 
@@ -630,7 +636,7 @@ i {
         padding: 2px;
     }
 
-    .ogoh{
+    .ogoh {
         grid-template-columns: 1fr !important;
     }
 
@@ -817,9 +823,9 @@ i {
 
 @media (max-width:320px) {
 
-.sec1{
-    height: 120vh;
-}
+    .sec1 {
+        height: 120vh;
+    }
 
     .sec2 {
         height: auto;
